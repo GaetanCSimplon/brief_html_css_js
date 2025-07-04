@@ -1,9 +1,11 @@
+/* Nettoyer les styles par défaut des navigateurs */
 * {
   margin: 0;
   padding: 0;
-  box-sizing: border-box;
+  box-sizing: border-box; /* Par défaut, les navigateurs calculent la largeur d’un élément sans inclure le `padding` et la `border`*/
 }
 
+/* Couleur du fond */
 body {
   font-family: Arial, sans-serif;
   background: #f0f2f5;
@@ -13,6 +15,7 @@ body {
   height: 100vh;
 }
 
+/* Style du formulaire */
 .form-container {
   background: white;
   padding: 30px;
@@ -49,10 +52,31 @@ form button {
   border: none;
   border-radius: 5px;
   font-size: 16px;
-  cursor: pointer;
+  cursor: pointer; 
   transition: background 0.3s;
 }
 
 form button:hover {
   background-color: #0056b3;
+}
+
+/* Afffichage des messages d'erreurs */
+.message {
+  margin-top: 15px;
+  padding: 10px;
+  border-radius: 5px;
+  text-align: center;
+  font-weight: bold;
+}
+
+.message.success {
+  color: #155724;
+  background-color: #d4edda;
+  border: 1px solid #c3e6cb;
+}
+
+.message.error {
+  color: #721c24;
+  background-color: #f8d7da;
+  border: 1px solid #f5c6cb;
 }
