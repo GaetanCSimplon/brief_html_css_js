@@ -97,7 +97,7 @@ main h1 {
   flex-wrap: wrap;
 }
 
-.accueil_1_txt, {
+.accueil_1_txt {
     max-width: 400px;
     display: flex;
     flex-direction: column;
