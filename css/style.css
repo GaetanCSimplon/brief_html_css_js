@@ -219,7 +219,7 @@ footer {
   display: flex;
   flex-wrap: wrap;
   justify-content: space-between;
-  gap: 2rem;
+  gap: 5rem;
   padding: 3rem 2rem;
   background-color: #f3f3f3;
   border-top: 1px solid #e0e0e0;
@@ -281,3 +281,60 @@ footer li:hover {
     align-items: center;
   }
 }
+
+
+/* Mode écosystème (sombre) */
+.ecosystem-mode {
+  background-color: #121212;
+  color: #ffffff;
+}
+
+.ecosystem-mode header ,
+.ecosystem-mode header h1,
+.ecosystem-mode nav,
+.ecosystem-mode main,
+.ecosystem-mode footer {
+  background-color: #1e1e1e;
+  color: #ffffff;
+}
+.ecosystem-mode footer li {
+  background-color: #1e1e1e;
+  color: #ffffff;
+}
+.ecosystem-mode a {
+  color: #a0c4ff;
+}
+
+.ecosystem-mode nav a:hover::after {
+  background: #a0c4ff;
+}
+
+.ecosystem-mode .form-container,
+.ecosystem-mode .accueil_1,
+.ecosystem-mode .accueil_2,
+.ecosystem-mode .carrousel {
+  background-color: #1e1e1e;
+  box-shadow: 0 4px 12px rgba(255, 255, 255, 0.05);
+}
+
+.ecosystem-mode .message.success {
+  background-color: #264d2c;
+  border-color: #4CAF50;
+  color: #c6f6d5;
+}
+
+.ecosystem-mode .message.error {
+  background-color: #5a1a1a;
+  border-color: #ff6b6b;
+  color: #ffeaea;
+}
+
+.ecosystem-mode button {
+  background-color: #333;
+  color: white;
+}
+
+.ecosystem-mode button:hover {
+  background-color: #555;
+}
+
