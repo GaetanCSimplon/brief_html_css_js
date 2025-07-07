@@ -1,28 +1,26 @@
-/* Nettoyer les styles par défaut des navigateurs */
-* {
-  margin: 0;
-  padding: 0;
-  box-sizing: border-box; /* Par défaut, les navigateurs calculent la largeur d’un élément sans inclure le `padding` et la `border`*/
-}
 
 /* Couleur du fond */
-body {
+/* main .form {
   font-family: Arial, sans-serif;
   background: #f0f2f5;
   display: flex;
   justify-content: center;
-  align-items: center;
+  align-items:flex-end;
   height: 100vh;
-}
+  
+}  */
 
 /* Style du formulaire */
 .form-container {
+  margin: auto;
   background: white;
   padding: 30px;
   border-radius: 10px;
   box-shadow: 0 8px 20px rgba(0, 0, 0, 0.1);
   width: 100%;
   max-width: 400px;
+  margin-bottom: 2rem;
+  margin-top: 2rem;
 }
 
 h2 {
