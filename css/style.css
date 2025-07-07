@@ -141,6 +141,63 @@ main h1 {
   padding: auto;
 }
 
+/* Carrousel */
+
+.carrousel {
+  position: relative;
+  max-width: 800px;
+  margin: 2rem auto;
+  overflow: hidden;
+  border-radius: 10px;
+  box-shadow: 0 5px 15px rgba(0,0,0,0.1);
+}
+
+.carrousel-container {
+  width: 100%;
+  overflow: hidden;
+}
+
+.carrousel-slide {
+  display: flex;
+  transition: transform 0.5s ease-in-out;;
+}
+
+.carrousel-slide img {
+  width: 100%;
+  height: auto;
+  object-fit: cover;
+}
+
+/* Flèches */
+.prev,
+.next {
+  position: absolute;
+  top: 50%;
+  transform: translateY(-50%);
+  background-color: rgba(255,255,255,0.7);
+  border: none;
+  font-size: 2rem;
+  cursor: pointer;
+  padding: 0.5rem 1rem;
+  z-index: 10;
+  transition: background-color 0.3s;
+}
+
+.prev:hover,
+.next:hover {
+  background-color: rgba(0, 0, 0, 0.5);
+  color: white;
+}
+
+.prev {
+  left: 10px;
+}
+
+.next {
+  right: 10px;
+}
+
+
 /* Footer */
 footer {
   display: flex;
