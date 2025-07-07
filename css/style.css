@@ -225,7 +225,7 @@ main h1 {
 footer {
   display: flex;
   flex-wrap: wrap;
-  justify-content: space-between;
+  justify-content: space-around;
   gap: 5rem;
   padding: 3rem 2rem;
   background-color: #f3f3f3;
