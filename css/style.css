@@ -80,6 +80,11 @@ main {
   padding: 0 1rem;
 }
 
+div .présentation{
+  width: 5rem;
+}
+
+
 main h1 {
   font-size: 2.5rem;
   margin-bottom: 2rem;
@@ -249,8 +254,18 @@ footer li:hover {
     display: flex;
     flex-direction: column;
     margin-bottom: 3rem;
+    margin-top: auto;
     gap: 20px;
 }
+
+.footer_info {
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 3rem;
+    margin-top: auto;
+    gap: 20px;
+}
+
 
 /* Responsive */
 @media (max-width: 768px) {
@@ -271,6 +286,30 @@ footer li:hover {
     flex-direction: column;
     align-items: center;
   }
+}
+
+/* Reseaux sociaux */
+.footer_socials {
+  text-align: center;
+  margin-top: 2rem;
+}
+
+.social-icons {
+  display: flex;
+  justify-content: center;
+  gap: 20px;
+  margin-top: 10px;
+}
+
+.social-icons a {
+  color: #333;
+  font-size: 24px;
+  transition: color 0.3s, transform 0.3s; /*color 0.3s : quand la couleur change (au survol), l'effet dure 0.3 seconde.transform 0.3s : pareil pour une transformation CSS (comme un agrandissement).*/
+}
+
+.social-icons a:hover {
+  color: #007bff;
+  transform: scale(1.2); /*redimensionner un élément en le grossissant*/ 
 }
 
 

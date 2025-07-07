@@ -99,8 +99,8 @@ form button:hover {
 }
 
 .ecosystem-mode button[type="submit"] {
-  background-color: #444;
-  color: #fff;
+  background-color: #444444;
+  color: #7dabf0;
   border: 1px solid #666;
 }
 
