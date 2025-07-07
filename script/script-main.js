@@ -24,3 +24,5 @@ prev.addEventListener('click', () => {
   compteur = (compteur - 1 + slide_img.lenght) % slide_img.length;
   slide.style.transform = `translateX(-${compteur * 100}%)`;
 })
+
+

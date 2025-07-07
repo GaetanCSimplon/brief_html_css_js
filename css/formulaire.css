@@ -1,14 +1,6 @@
 
 /* Couleur du fond */
-/* main .form {
-  font-family: Arial, sans-serif;
-  background: #f0f2f5;
-  display: flex;
-  justify-content: center;
-  align-items:flex-end;
-  height: 100vh;
-  
-}  */
+
 
 /* Style du formulaire */
 .form-container {
@@ -77,4 +69,41 @@ form button:hover {
   color: #721c24;
   background-color: #f8d7da;
   border: 1px solid #f5c6cb;
+}
+
+
+
+
+/* Formulaire - Mode Écosystèmecosystem-mode  */
+.ecosystem-mode {
+  background-color: #121212;
+  color: #ffffff;
+}
+
+.ecosystem-mode .form-container {
+  background-color: #1e1e1e;
+  color: #ffffff;
+  border: 1px solid #333;
+}
+
+.ecosystem-mode input,
+.ecosystem-mode textarea {
+  background-color: #2a2a2a;
+  color: #fff;
+  border: 1px solid #555;
+}
+
+.ecosystem-mode input::placeholder,
+.ecosystem-mode textarea::placeholder {
+  color: #ccc;
+}
+
+.ecosystem-mode button[type="submit"] {
+  background-color: #444;
+  color: #fff;
+  border: 1px solid #666;
+}
+
+.ecosystem-mode button[type="submit"]:hover {
+  background-color: #666;
 }

@@ -35,5 +35,3 @@ function validateEmail(email) {
   return regex.test(email);
 }
 
-
-
