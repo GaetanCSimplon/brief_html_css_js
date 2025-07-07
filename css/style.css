@@ -97,7 +97,7 @@ main h1 {
   flex-wrap: wrap;
 }
 
-.accueil_1_txt, .about {
+.accueil_1_txt, {
     max-width: 400px;
     display: flex;
     flex-direction: column;
@@ -204,6 +204,15 @@ main h1 {
   right: 10px;
 }
 
+/* About */
+
+.about-container {
+    max-width: 600px;
+    padding-left: 1rem;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+}
 
 /* Footer */
 footer {
