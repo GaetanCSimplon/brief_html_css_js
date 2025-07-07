@@ -97,7 +97,7 @@ main h1 {
   flex-wrap: wrap;
 }
 
-.accueil_1_txt {
+.accueil_1_txt, .about {
     max-width: 400px;
     display: flex;
     flex-direction: column;
@@ -143,6 +143,13 @@ main h1 {
 
 /* Carrousel */
 
+.carrousel h1 {
+    font-size: 2.5rem;
+    margin: 2rem;
+    text-align: center;
+
+}
+
 .carrousel {
   position: relative;
   max-width: 800px;
@@ -168,7 +175,7 @@ main h1 {
   object-fit: cover;
 }
 
-/* Flèches */
+/* Flèches  Carrousel*/
 .prev,
 .next {
   position: absolute;
