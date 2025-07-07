@@ -206,12 +206,19 @@ main h1 {
 
 /* About */
 
+.about {
+    display: flex;
+    justify-content: center;
+}
+
 .about-container {
     max-width: 600px;
     padding-left: 1rem;
     display: flex;
     flex-direction: column;
     flex-wrap: wrap;
+    padding: 1rem;
+    margin: 20px;
 }
 
 /* Footer */
@@ -260,6 +267,23 @@ footer li:hover {
     margin-bottom: 3rem;
     gap: 20px;
 }
+
+.btn-contact {
+  display: inline-block;
+  padding: 0.75rem 1.5rem;
+  background-color: #333;
+  color: #fff;
+  text-decoration: none;
+  font-size: 1rem;
+  border-radius: 8px;
+  transition: background-color 0.3s ease;
+  max-width: 200px;
+}
+
+.btn-contact:hover {
+  background-color: #555;
+}
+
 
 /* Responsive */
 @media (max-width: 768px) {
