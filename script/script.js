@@ -36,7 +36,6 @@ function validateEmail(email) {
 }
 
 
-
 /*Section Carrousel */ 
 
 const slide = document.querySelector('.carrousel-slide')
