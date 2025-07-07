@@ -34,3 +34,13 @@ function validateEmail(email) {
   const regex = /^[^\s@]+@[^\s@]+\.[^\s@]+$/;
   return regex.test(email);
 }
+
+
+
+/*Section Carrousel */ 
+
+const slide = document.querySelector('.carrousel-slide')
+const slide_img = document.querySelector('.carrousel-slide img')
+const prev = document.querySelector('.prev')
+const next = document.querySelector('.next')
+
